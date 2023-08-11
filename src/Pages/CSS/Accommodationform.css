@@ -1,0 +1,184 @@
+.fullform{
+padding-left: 70px;
+padding-right: 70px;
+padding-top: 20px;
+padding-bottom: 20px;
+border: 1px solid #ccc;
+    background-color: rgb(243, 243, 243);
+    width: 550px;
+}
+
+.formoutside{
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.placephoto {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 160px;
+  height: 90px;
+}
+
+.place {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-container {
+  position: relative;
+  flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed */
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.7;
+  border: none;
+  background: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.upload-label {
+  border: 1px solid rgb(139, 138,138);
+  font-size: 14px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+  }
+
+
+  .form {
+    border: 1px solid #ccc;
+    background-color: rgb(233, 232, 232);
+    padding: 10px;
+    width: 500px;
+  }
+  
+  .form-group {
+  margin-bottom: 10px;
+  }
+  
+  .form-label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  }
+  
+  .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  }
+  
+  .form-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  }
+  
+  .form-file {
+  display: none;
+  }
+  
+ 
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-field h3 {
+    margin-right: 30px;
+    width: 80px;
+  }
+  
+  .form-field input[type="text"] ,
+  .form-field input[type="number"]{
+    flex: 1;
+    padding: 5px;
+  }
+
+
+
+
+  .form-field-des {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .form-field-des h3 {
+    margin-right: 20px;
+    width: 200px; 
+  }
+  
+  .form-field-des textarea{
+    flex: 1;
+    padding: 5px;
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+  }
+
+
+  .form-field-perks {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .form-field-perks h3 {
+    margin-right: 20px;
+    margin-top: 0;
+    width: 200px;
+    align-self: flex-start; 
+  }
+  
+  .form-field-perks input[type="checkbox"]{
+    flex: 1;
+    padding: 5px;
+  }
+
+
+
+  .form-field-MNG {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-field-MNG h3 {
+    margin-right: 20px;
+    width: 200px;
+  }
+  
+  .form-field-MNG input[type="number"]{
+    flex: 1;
+    padding: 5px;
+  }

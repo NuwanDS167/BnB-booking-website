@@ -1,0 +1,35 @@
+.main-footer {
+  background-color: #9ea7ac;
+    text-align: center;
+    font-size: medium;
+    bottom: 0;
+    width: 100%;
+    
+ 
+    box-shadow: 0.5px -1px 8px #888888;
+  }
+  
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerinput{
+  width: 250px;
+  height: 23px;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.footerbutton{
+  height: 31px;
+  width: 80px;
+  font-size: 14px;
+}

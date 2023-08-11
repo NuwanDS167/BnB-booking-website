@@ -1,0 +1,66 @@
+.pageContainer-booking {
+    padding-top: 30px;
+    display: flex;
+    min-height: calc(100vh - 219px);
+  }
+  
+  .pageContainer-booking > div:first-child {
+    margin-right: 50px;
+  }
+  
+.booking-container-admin{
+    padding-left: 80px;
+}
+
+
+  .booking-details-container-admin {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+
+    display:flex;
+    flex-direction: column;
+    cursor: default;
+    text-decoration:none;
+    color: black; 
+    border-radius: 3px;
+  }
+
+.booking-admin-container1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking-id-admin{
+  margin-right: 100px;
+}
+
+.booking-title-admin{
+  font-weight: bold;
+}
+
+.booking-address-admin{
+  color: gray;
+  font-size: 14px;
+}
+
+.booking-dates-admin{
+  padding-right: 50px;
+}
+
+
+.searchbox-admin-bookingdata{
+  padding-left: 90px;
+  
+}
+
+.searchbox-admin-bookingdata input{
+  height: 25px;
+  width:526px;
+  font-size: 14px;
+}
+
+.searchbox-admin-bookingdata button{
+  height: 31px;
+  font-size: 14px;
+}

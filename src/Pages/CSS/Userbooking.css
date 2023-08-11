@@ -1,0 +1,63 @@
+.main{
+  min-height: calc(100vh - 210px);
+}
+
+
+.booking-container {
+    padding: 20px 30px 20px 80px;
+  }
+  
+  .booking-link {
+    display: flex;
+    margin: 10px 0;
+    border: 1px solid gray;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  
+    border-radius: 8px;
+    box-shadow: 0.5px 3px 5px #b3b2b2;
+
+  }
+  
+  .booking-link:hover {
+    background-color: rgb(233, 232, 232);
+  }
+
+  .booking-image-container {
+    flex: 0 0 160px;
+    padding: 5px;
+  }
+  
+  .booking-image {
+    width: 215px;
+    height: 120px;
+  }
+  
+  .booking-details-container {
+    flex: 1;
+  }
+  
+  .booking-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .booking-address {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+  .booking-dates {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+  .booking-nights {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  
+  .no-bookings-message {
+    padding: 20px;
+  }

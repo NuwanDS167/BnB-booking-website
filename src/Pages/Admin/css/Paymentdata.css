@@ -1,0 +1,35 @@
+.pageContainer-payments {
+    padding-top: 30px;
+    display: flex;
+    min-height: calc(100vh - 219px);
+  }
+  
+  .pageContainer-payments > div:first-child {
+    margin-right: 50px;
+  }
+
+.payment-card-admin{
+  border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+}
+
+.paymentdetails-container{
+  display:flex;
+}
+
+.paymentdate{
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.paymentid{
+  width: 230px;
+}

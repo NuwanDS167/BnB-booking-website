@@ -1,0 +1,31 @@
+.main{
+  min-height: calc(100vh - 210px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+nav a {
+
+    margin-left: 20px;
+  }
+
+.logtext{
+  padding-top:10px;
+  padding-left: 80px;
+}
+
+.logtext button{
+  width: 140px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #9ea7ac;
+  cursor: pointer;
+}
+

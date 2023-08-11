@@ -1,0 +1,24 @@
+.subNav{
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+
+.navButton{
+    height: 35px;
+    font-size: 16px;
+    border:none;
+    
+    border-radius: 5px;
+}
+
+.navButton:hover {
+    background-color: #5d5e63;
+    color: #ffffff;
+    cursor: pointer;
+    transition-delay: 0.1s; 
+}
+
+.navButton.active {
+    background-color: #b9c3c9;
+    color: #000000;
+  }

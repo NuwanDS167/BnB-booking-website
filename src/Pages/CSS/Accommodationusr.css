@@ -1,0 +1,109 @@
+.main{
+  min-height: calc(100vh - 270px);
+}
+
+
+.newbutton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.newbutton {
+  
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+  
+}
+.newbutton svg {
+  margin-right: 5px;
+}
+
+.newbutton:hover{
+  background-color: #b9c3c9;
+  cursor: pointer;
+}
+
+.myplacestitle{
+  padding-left: 80px;
+}
+
+.place-link:hover {
+  background-color: rgb(233, 232, 232);
+}
+
+
+.place-container {
+  padding: 20px 30px 20px 80px;
+}
+
+
+.place-link {
+  display: flex;
+  margin: 10px 0;
+  border: 1px solid gray;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+
+  border-radius: 8px;
+  box-shadow: 0.5px 3px 5px #b3b2b2;
+}
+
+.place-link img {
+  width: 215px;
+  height: 120px;
+}
+
+.place-link > div:first-of-type {
+  flex: 0 0 160px;
+  padding: 5px;
+}
+
+.place-link > div:last-of-type {
+  flex: 1;
+}
+
+.place-link > div:last-of-type > div:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.place-link > div:last-of-type > div:last-of-type {
+  font-size: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.2;
+  max-height: 3.6em; /* 3 lines with 1.2em line-height */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px ; /* add margin between title and description */
+}
+
+.address {
+  font-size: 14px;
+  color: gray;
+  margin-top: 20px !important;;
+}
+
+
+.singlebookingbutton{
+  text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color:black;
+  font-size: 17px;
+}
+
